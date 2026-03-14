@@ -65,3 +65,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+if update.message:
+    text = update.message.text
